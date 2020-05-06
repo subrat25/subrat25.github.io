@@ -55,9 +55,11 @@
       transform: translate3d(0, 0%, 0);
       background: #373737; }
     .menu-branding .portrait {
+      width: 33px;
+      height: 33px;
       
       background: url("../img/portrait.jpg");
-      border-radius: 50%;
+      border-radius: 100%;
       border: solid 3px #eece1a; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
