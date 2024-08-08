@@ -1,0 +1,77 @@
+/* Container for the timeline */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* The timeline items */
+.timeline-item {
+    padding: 10px 0;
+    position: relative;
+    margin: 0 0 20px;
+}
+
+/* The timeline icon */
+.timeline-icon {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    line-height: 75px;
+    top: 0;
+    left: 0;
+    
+}
+
+/* Add an arrow beside the timeline icon */
+.timeline-icon::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent #000000; 
+    top: 50%;
+    left: 98.5%;
+    transform: translateY(-50%);
+}
+
+
+
+
+/* The timeline content */
+.timeline-content {
+    margin-left: 100px;
+    background: #afafff;
+    border-radius: 6px;
+    padding: 20px;
+    position: relative;
+}
+
+/* Add an arrow to the timeline content */
+.timeline-content::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: -15px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent #afafff transparent transparent;
+}
+
+/* Title style */
+.timeline-content h2 {
+    margin-top: 0;
+}
+
+/* List styles */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}

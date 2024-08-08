@@ -35,7 +35,7 @@ a:hover {
 }
 .rounded-image {
   border-radius: 70%; /* This sets the border radius to 50%, creating a circle */
-  border: 1px solid black;
+  border: 1.5px solid black;
 }
 .p-r {
   position: relative;
