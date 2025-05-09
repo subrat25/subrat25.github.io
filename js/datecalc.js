@@ -1,6 +1,6 @@
 
 const DOJTCS = new Date('2021-07-29');
-const DOJInfy = new Date('2024-07-05');
+const DOJInfy = new Date('2024-08-05');
 const currentDate = new Date();
 
 const dateDifferenceInMillis = currentDate - DOJTCS;

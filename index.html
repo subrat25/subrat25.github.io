@@ -15,8 +15,8 @@
 	<link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
 	<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 	<link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
-	<link href="lib/timeline/style-timeline.css" rel="stylesheet" />
 	<link href="css/style.css" rel="stylesheet" />
+	<link href="css/flipcard.css" rel="stylesheet" />
 	<link href="css/timeline.css" rel="stylesheet" />
 </head>
 
@@ -70,7 +70,8 @@
 				<div class="container">
 					<h1 class="intro-title mb-4">Subrat Kumar Panda</h1>
 					<p class="intro-subtitle">
-						<span class="text-slider-items">Backend API Developer,NodeJS Developer,Azure Cloud &
+						<span class="text-slider-items">Backend API Developer,NodeJS Express ,Azure, AWS, IBM
+							Cloud ,
 							DevOps</span>
 						<strong class="text-slider"></strong>
 					</p>
@@ -88,8 +89,21 @@
 								<div class="row">
 									<div class="col-sm-6 col-md-5">
 										<div class="about-img">
-											<img src="img/testimonial-2.jpg" class="img-fluid rounded b-shadow-a"
-												alt="" />
+											<div class="flip-card">
+												<div class="flip-card-inner">
+													<div class="flip-card-front">
+														<img src="img/testimonial-2.jpg"
+															class="img-fluid rounded b-shadow-a">
+													</div>
+													<div class="flip-card-back">
+														<h3>Subrat Panda</h3>
+														<p style="font-size: 2.5; font-family: Calibri;">Backend
+															Developer you would love to hire
+														</p>
+													</div>
+												</div>
+											</div>
+
 										</div>
 									</div>
 									<div class="col-sm-6 col-md-7">
@@ -130,6 +144,12 @@
 									<div class="progress">
 										<div class="progress-bar" role="progressbar" style="width: 80%"
 											aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									<span>AWS Cloud</span>
+									<span class="pull-right">50%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 50%"
+											aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
 									</div>
 									<span>Azure DevOps &amp; Cloud</span>
 									<span class="pull-right">75%</span>
@@ -176,29 +196,61 @@
 											About me
 										</h5>
 									</div>
-									<p style="font-size: 2.5; font-family: Calibri;"> I'm an Electrical & Electronics Engineering graduate from VSSUT, Burla, with a diverse background in Conversational
-										AI and Backend API development. With over three years of professional experience, I am a skilled Backend API
-										Developer with substantial experience in Conversational AI, showcasing successful leadership in designing and
-										developing enterprise applications. My expertise includes NodeJS, SQL, and Azure cloud services. I have led a
-										project optimization team, utilizing my proficiency in various programming languages and frameworks to prioritize
-										speed and precision. I am eager to contribute as a Software Development Engineer (SDE) or Backend Developer,
-										leveraging my robust leadership experience. </p>
-										<p style="font-size: 2.5; font-family: Calibri;"> In my current role as a Technology Analyst at Infosys Ltd. in Bhubaneswar, I work as a Team Lead and Senior
-										Developer for a microservices development team. In my previous role at TCS, I took on the responsibilities of
-										Offshore Technical Lead for a UK-based healthcare MNC for over 1.5 years. I led the Intelligent Automations API
-										team, transforming our NodeJS Chatbot Platform's architecture from monolithic to microservices, achieving
-										significant cost savings. Working collaboratively with my team, we built a backend that supports nine frontend
-										platforms using the Adapter Design Pattern and NodeJS. I also oversaw smooth DevOps processes, implemented CI/CD
-										pipelines for Docker and AKS deployment, and continuously monitored and optimized our API and database responses,
-										ensuring efficiency by refining SQL queries. Additionally, I managed and mentored a dedicated team of 4-5 backend
-										developers. </p>
-										<p style="font-size: 2.5; font-family: Calibri;"> I am an intermediate-level problem solver in Data Structures and Algorithms (DSA) and have predominant expertise in
-										SQL. I have guided my team in creating advanced systems for enhanced security through chatbots and voicebots.
-										Moreover, I facilitate communication between client and vendor teams, conduct code reviews, and ensure high-quality
-										software solutions through comprehensive testing. Beyond my professional role, I possess skills in IoT platforms,
-										including Blynk IoT and IFTTT applets, and have practical experience in home automation, 3D printing, CNC milling,
-										aerial and underwater robotics, Matlab-Simulink, and embedded systems. </p>
-									
+									<p style="font-size: 2.5; font-family: Calibri;">
+										I'm an Electrical & Electronics Engineering graduate from VSSUT, Burla, with a
+										diverse background in
+										<b>Backend API development</b> and Conversational AI. With nearly <b>4 years</b> of
+										professional experience,
+										I am a skilled Backend Developer showcasing successful leadership in designing
+										and developing scalable enterprise applications.
+										My expertise includes <b>NodeJS, Express, SQL, NoSQL, AWS, and Azure</b>. I have led
+										and managed multiple teams and projects,
+										utilizing my proficiency in various frameworks to prioritize speed and
+										precision. I am eager to contribute as a
+										<b>Software Development Engineer (SDE)</b> or Backend Developer, leveraging my
+										leadership experience.
+									</p>
+
+									<p style="font-size: 2.5; font-family: Calibri;">
+										In my current role as a Technology Analyst at Infosys Ltd. in Bhubaneswar, I
+										serve as an
+										<b>Offshore Team Lead</b> for a retail MNC's backend team. I have led
+										development, troubleshooting, and maintenance
+										of end-to-end backend services. I optimized the <b>place order service</b> and
+										<b>order search algorithm</b>,
+										revamped the low-level design for <b>store inventory sync</b>, and built an
+										integration service that reduced error rates by 20%.
+										I improved performance of <b>serverless APIs on AWS Lambda with MongoDB</b>
+										through code enhancements, caching strategies,
+										and event-driven architecture. I also implemented logging and monitoring using
+										<b>New Relic, Mixpanel, and CloudWatch.</b>
+										My efforts enabled smooth API migration to ECS, cutting costs by 30% and
+										improving response time by 50%.
+									</p>
+
+									<p style="font-size: 2.5; font-family: Calibri;">
+										At TCS, I served as <b>Offshore Technical Lead</b> for a UK-based healthcare
+										MNC. I led the Intelligent Automations team,
+										transforming a <b>monolithic NodeJS Chatbot Platform into microservices</b>,
+										achieving notable cost savings.
+										We supported 9 frontend platforms using the Adapter Design Pattern. I also led
+										CI/CD adoption with Docker and AKS,
+										and <b>optimized SQL queries</b> and API/database performance. I mentored a team
+										of 4–5 backend developers during this time.
+									</p>
+
+									<p style="font-size: 2.5; font-family: Calibri;">
+										I’m an <b>intermediate DSA problem solver</b> with strong <b>SQL</b> skills.
+										I've contributed to enhanced chatbot and voicebot systems,
+										facilitated client-vendor communication, and conducted thorough code reviews and
+										testing.
+										Beyond my role, I explore IoT platforms like Blynk and IFTTT, and have hands-on
+										experience in home automation, 3D printing,
+										robotics, Matlab-Simulink, and embedded systems.
+									</p>
+
+
+
 								</div>
 							</div>
 						</div>
@@ -215,13 +267,10 @@
 				<p><span id="dateDifference2"></span></p>
 				<div class="line-mf"></div>
 			</div>
-
 			<div class="timeline">
-				<div class="timeline-item">
-					<div class="timeline-icon">
+				<div class="timelineContainer left">
+					<div class="content">
 						<img src="img/infosyslogo.png" width="75" height="75" class="rounded-image" alt="Infosys logo">
-					</div>
-					<div class="timeline-content">
 						<h2>Infosys</h2>
 						<h5>Bhubaneswar, India</h5>
 						<p>Full-time · <span id="dateDifference3"></span></p>
@@ -230,19 +279,32 @@
 							<li>Technology Analyst · Aug 24 - Present</li>
 						</ul>
 						</p>
-						<p><strong>Skills:</strong> Node.js, AWS </p>
+						<p><strong>Skills:</strong> NodeJS, AWS, MongoDB </p>
 						<div class="roles-description">
-							<!-- Add role descriptions here -->
+							<ul>
+								<li>As a Team Lead for a retail MNC, leading the Infosys backend team in developing,
+									troubleshooting & supporting end-to-end backend systems.</li>
+								<li>Optimized the logic involved in place order service.</li>
+								<li>Revamped the existing LLD and built a new integration service for a TP vendor,
+									streamlining store inventory sync and reducing the error rate by 20%.</li>
+								<li>Optimized serverless APIs on AWS Lambda and MongoDB by improving code quality,
+									caching, and event-driven design.</li>
+								<li>Configured logging & alerting mechanisms for application monitoring and outage
+									notifications using New Relic, Mixpanel, and AWS CloudWatch.</li>
+								<li>Refactored application frameworks to streamline the migration of APIs from AWS
+									Lambda to ECS, improving response time by 50% and effectively handling cold starts,
+									concurrency, and horizontal scaling at 30% lower costs.</li>
+								<li>Contributed to bug fixes with major customer impact, CAB releases, and API
+									enhancements.</li>
+							</ul>
+
 						</div>
 					</div>
 				</div>
-
-				<div class="timeline-item">
-					<div class="timeline-icon">
+				<div class="timelineContainer right">
+					<div class="content">
 						<img src="img/tcslogo.png" width="75" height="75" class="rounded-image"
 							alt="Tata Consultancy Services logo">
-					</div>
-					<div class="timeline-content">
 						<h2>Tata Consultancy Services</h2>
 						<h5>Hyderabad, India</h5>
 						<p>Full-time · 3 years</p>
@@ -257,25 +319,44 @@
 							Python</p>
 						<div class="roles-description">
 							<ul>
-								<li> As the Offshore Technical Lead for a healthcare MNC, led the Intelligent Automations backend API team in developing & testing scalable systems.</li>
-								<li> Redesigned HLD & LLD architecture of NodeJS based Chatbot Platform, transforming APIs to Microservices resulting in a cost reduction of $4000/M.</li>
-								<li> Architected a chatbot backend supporting 9 frontend platforms (Webpages, MS Teams,SharePoint, Facebook Messenger, Workplace, Telegram, Twitter, Twilio SMS, WhatsApp) using the Adapter Design Pattern and NodeJS, with multiple third-party API integrations.</li>
-								<li> Designed CI/CD pipelines for Docker containerization for an ACR, reducing manual efforts & AKS deployment time by approximately 15-20 hours monthly.</li>
-								<li> Optimized SQL database usage through query optimization (Indexing & Restructuring Joins), decreasing API response time by 25%.</li>
-								<li> Played a key role in enterprise-level migration from Kong to APIGEE API Gateway, improving security by 40% and performance by 33%.</li>
-								<li> Developed a high-value chatbot and its Backend System, resulting in 2FTE savings & monthly cost reductions of $15,000 for the client.</li>
-								<li> Optimized IBM & Azure cloud resources, leading to a cost savings of $3,500 per month for the client.</li>
-								<li> Built advanced Java & Node - based RESTful APIs to serve as a backend service for RPA bots, handling over 2 million weekly transactions with 0 downtime</li>
-								<li>Demonstrated extensive development experience in Azure Cloud, effectively utilizing a wide range of Azure resources and services.</li>
-								<li>Transformed and deployed novel product features aimed at fortifying security through OAuth & SSO Login within an agile framework.</li>
-								<li>Coordinated as a pivotal communication bridge between Client and Vendor management teams.</li>
-								<li>Participated in code reviews, offering debugging guidance and addressing concerns regarding APIs utilized in RPA services.</li>
-								<li>Conducted comprehensive software testing to ensure optimal functionality, emphasizing a commitment to delivering high-quality and reliable software engineering solutions.</li>
+								<li> As the Offshore Technical Lead for a healthcare MNC, led the Intelligent
+									Automations backend API team in developing & testing scalable systems.</li>
+								<li> Redesigned HLD & LLD architecture of NodeJS based Chatbot Platform, transforming
+									APIs to Microservices resulting in a cost reduction of $4000/M.</li>
+								<li> Architected a chatbot backend supporting 9 frontend platforms (Webpages, MS
+									Teams,SharePoint, Facebook Messenger, Workplace, Telegram, Twitter, Twilio SMS,
+									WhatsApp) using the Adapter Design Pattern and NodeJS, with multiple third-party API
+									integrations.</li>
+								<li> Designed CI/CD pipelines for Docker containerization for an ACR, reducing manual
+									efforts & AKS deployment time by approximately 15-20 hours monthly.</li>
+								<li> Optimized SQL database usage through query optimization (Indexing & Restructuring
+									Joins), decreasing API response time by 25%.</li>
+								<li> Played a key role in enterprise-level migration from Kong to APIGEE API Gateway,
+									improving security by 40% and performance by 33%.</li>
+								<li> Developed a high-value chatbot and its Backend System, resulting in 2FTE savings &
+									monthly cost reductions of $15,000 for the client.</li>
+								<li> Optimized IBM & Azure cloud resources, leading to a cost savings of $3,500 per
+									month for the client.</li>
+								<li> Built advanced Java & Node - based RESTful APIs to serve as a backend service for
+									RPA bots, handling over 2 million weekly transactions with 0 downtime</li>
+								<li>Demonstrated extensive development experience in Azure Cloud, effectively utilizing
+									a wide range of Azure resources and services.</li>
+								<li>Transformed and deployed novel product features aimed at fortifying security through
+									OAuth & SSO Login within an agile framework.</li>
+								<li>Coordinated as a pivotal communication bridge between Client and Vendor management
+									teams.</li>
+								<li>Participated in code reviews, offering debugging guidance and addressing concerns
+									regarding APIs utilized in RPA services.</li>
+								<li>Conducted comprehensive software testing to ensure optimal functionality,
+									emphasizing a commitment to delivering high-quality and reliable software
+									engineering solutions.</li>
 							</ul>
 						</div>
 					</div>
 				</div>
+
 			</div>
+
 		</div>
 	</section>
 
@@ -290,12 +371,11 @@
 			</div>
 
 			<div class="timeline">
-				<div class="timeline-item">
-					<div class="timeline-icon">
+
+				<div class="timelineContainer left">
+					<div class="content">
 						<img src="img/CSKAAlogo.png" width="75" height="75" class="rounded-image"
 							alt="CSKA Automation Services Pvt Ltd logo">
-					</div>
-					<div class="timeline-content">
 						<h2>CSKA Automation Services Pvt Ltd</h2>
 						<p>Internet of Things Engineer · Internship<br>Sept. 2020 (18 Weeks)</p>
 						<a href="CERTIFICATES/Subrat_Internship_CSKAA.jpg" data-lightbox="gallery-mf">Click here to view
@@ -313,12 +393,10 @@
 					</div>
 				</div>
 
-				<div class="timeline-item">
-					<div class="timeline-icon">
+				<div class="timelineContainer right">
+					<div class="content">
 						<img src="img/Railwaylogo.png" width="75" height="75" class="rounded-image"
 							alt="Indian Railways logo">
-					</div>
-					<div class="timeline-content">
 						<h2>Indian Railways</h2>
 						<p>Trainee Electrical Engineer · Internship<br>Oct. 2019 (2 Weeks)</p>
 						<a href="CERTIFICATES/RAILWAY.JPG" data-lightbox="gallery-mf">Click here to view certificate</a>
@@ -330,13 +408,10 @@
 						</ul>
 					</div>
 				</div>
-
-				<div class="timeline-item">
-					<div class="timeline-icon">
+				<div class="timelineContainer left">
+					<div class="content">
 						<img src="img/opgclogo.png" width="75" height="75" class="rounded-image"
 							alt="Odisha Power Generation Corporation Limited logo">
-					</div>
-					<div class="timeline-content">
 						<h2>Odisha Power Generation Corporation Limited</h2>
 						<p>Summer Intern · Internship<br>May 2019 (4 Weeks)</p>
 						<a href="CERTIFICATES/opgc.JPG" data-lightbox="gallery-mf">Click here to view certificate</a>
@@ -348,13 +423,10 @@
 						</ul>
 					</div>
 				</div>
-
-				<div class="timeline-item">
-					<div class="timeline-icon">
+				<div class="timelineContainer right">
+					<div class="content">
 						<img src="img/SIGNOTRONlogo.png" width="75" height="75" class="rounded-image"
 							alt="SIGNOTRON logo">
-					</div>
-					<div class="timeline-content">
 						<h2>SIGNOTRON</h2>
 						<p>Junior Electronics Engineer · Internship<br>July 2018 (4 Weeks)</p>
 						<a href="CERTIFICATES/Signotron.jpeg" data-lightbox="gallery-mf">Click here to view
@@ -1286,7 +1358,10 @@
 						</div>
 						<div class="service-content">
 							<h2 class="s-title">E-Com Backend Project</h2>
-							<p class="s-description text-center">The project is designed to provide a robust backend for an e-commerce platform using Node.js and Express.js, with MySQL for database management. It ensures secure user authentication with JWT, while efficiently handling user, address, cart, and purchase management functionalities.
+							<p class="s-description text-center">The project is designed to provide a robust backend for
+								an e-commerce platform using Node.js and Express.js, with MySQL for database management.
+								It ensures secure user authentication with JWT, while efficiently handling user,
+								address, cart, and purchase management functionalities.
 							</p>
 						</div>
 					</div>
@@ -1301,7 +1376,10 @@
 						<div class="service-content">
 							<h2 class="s-title">Multiple Chatbot Backend Project</h2>
 							<p class="s-description text-center">
-								The project is designed to integrate two chatbot AI providers, Watson and Google Dialogflow, into a Node.js Express backend, ensuring seamless communication. It features scalable database operations with Sequelize ORM and efficient logging of conversation details using MySQL and PostgreSQL.
+								The project is designed to integrate two chatbot AI providers, Watson and Google
+								Dialogflow, into a Node.js Express backend, ensuring seamless communication. It features
+								scalable database operations with Sequelize ORM and efficient logging of conversation
+								details using MySQL and PostgreSQL.
 							</p>
 						</div>
 					</div>
@@ -1316,12 +1394,14 @@
 						<div class="service-content">
 							<h2 class="s-title">File Sharing App</h2>
 							<p class="s-description text-center">
-The project is designed to facilitate secure file sharing using Node.js Express as the backend, enabling file upload, download, and static authentication. It incorporates Multer for secure file uploads, ensuring data integrity and confidentiality.
+								The project is designed to facilitate secure file sharing using Node.js Express as the
+								backend, enabling file upload, download, and static authentication. It incorporates
+								Multer for secure file uploads, ensuring data integrity and confidentiality.
 							</p>
 						</div>
 					</div>
 				</div>
-				
+
 			</div>
 		</div>
 	</section>
@@ -1350,7 +1430,7 @@ The project is designed to facilitate secure file sharing using Node.js Express 
 							<h7>2020 IEEE International Symposium on Sustainable Energy, Signal Processing and Cyber
 								Security (iSSSC),16-17 Dec. 2020,GIET University,Gunupur Odisha, India
 								<br />
-								<b>Publisher:</b> IEEE      
+								<b>Publisher:</b> IEEE
 								<b> DOI:</b>
 								<u>
 									<a href="https://doi.org/10.1109/iSSSC50941.2020.9358912"
@@ -1370,7 +1450,7 @@ The project is designed to facilitate secure file sharing using Node.js Express 
 							<h7>2021 International Symposium of Asian Control Association on Intelligent Robotics and
 								Industrial Automation (IRIA),20-22 Sept. 2021,IIT Goa, India
 								<br />
-								<b>Publisher:</b> IEEE      
+								<b>Publisher:</b> IEEE
 								<b>DOI:</b>
 								<u>
 									<a href="https://doi.org/10.1109/IRIA53009.2021.9588765"
@@ -1391,7 +1471,7 @@ The project is designed to facilitate secure file sharing using Node.js Express 
 							<h7>2021 International Symposium of Asian Control Association on Intelligent Robotics and
 								Industrial Automation (IRIA),20-22 Sept. 2021,IIT Goa, India
 								<br />
-								<b>Publisher:</b> IEEE      
+								<b>Publisher:</b> IEEE
 								<b>DOI:</b>
 								<u>
 									<a href="https://doi.org/10.1109/IRIA53009.2021.9588710"
