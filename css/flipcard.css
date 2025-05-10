@@ -31,8 +31,8 @@
   }
   
   .flip-card-back {
-    background-color: dodgerblue;
-    color: white;
+    background-color: white;
+    color: Blue;
     transform: rotatex(180deg);
   }
   
@@ -43,5 +43,51 @@
   }
   
 
+  @media (max-width: 768px) 
+{.flip-card {
+    background-color: transparent;
+    width: 50%;
+    height: 300px; /* Adjust as needed or make responsive */
+    perspective: 1000px;
+    margin: 0 auto;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #fff;
+    color: black;
+    
+  }
+  
+  .flip-card-back {
+    background-color: white;
+    color: Blue;
+    transform: rotatex(180deg);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotatex(180deg);
+  }
+ 
+  }
+  
+
+  
   
   
